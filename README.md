@@ -3,6 +3,14 @@ A comparative study of ResNet50 and VGG16 for classifying
 22 visually similar spice categories using transfer learning 
 and data augmentation.
 
+## Dataset
+- 22 spice categories
+- Collected manually across varied real-world conditions:
+  - Different lighting (sunlight, low light, high light)
+  - Shadows and blur variations
+  - High quality and standard quality images
+- Diversity intentionally built in to improve model robustness
+  
 ## Results
 | Model    | Augmentation | Accuracy |
 |----------|-------------|----------|
